@@ -25,3 +25,6 @@ mod 'apache',
   :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
   :branch => 'master'
 
+mod 'hieratest',
+  :git    => 'https://github.com/belfast77/hieratest',
+  :branch => 'master'
