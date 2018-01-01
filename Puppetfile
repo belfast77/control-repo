@@ -17,12 +17,11 @@ mod "puppetlabs/concat",      '2.1.0'
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
 
-mod 'apache',
-  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-  :branch => 'master'
-
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 
+mod 'apache',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
+  :branch => 'master'
 
