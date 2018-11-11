@@ -28,3 +28,7 @@ mod 'apache',
 mod 'hieratest',
   :git    => 'https://github.com/belfast77/hieratest',
   :branch => 'master'
+
+mod 'liagent',
+  :git    => 'https://github.com/belfast77/liagent',
+  :branch => 'dev'
