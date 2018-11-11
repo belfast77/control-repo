@@ -7,7 +7,7 @@ forge "https://forge.puppet.com"
 #mod "puppetlabs/concat",      '2.1.0'
 
 mod "puppetlabs/inifile",     '1.5.0'
-mod "puppetlabs/stdlib",      '4.11.0'
+mod "puppetlabs/stdlib",      '5.1.0'
 mod "puppetlabs/concat",      '2.1.0'
 
 # Modules from Git
@@ -32,3 +32,4 @@ mod 'hieratest',
 mod 'liagent',
   :git    => 'https://github.com/belfast77/liagent',
   :branch => 'dev'
+
