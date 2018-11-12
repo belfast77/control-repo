@@ -1,2 +1,13 @@
 ---
 hieratest::parameter_one: "This node is special, so we're overriding the common configuration that the other nodes use."
+
+
+liagent::srv_hostname: 'loginsight.localdomain'
+liagent::service_manage: true
+liagent::service_ensure: true
+liagent::service_enable: true
+liagent::service_name: 'liagentd'
+liagent::package_manage: true
+liagent::package: 'VMware-Log-Insight-Agent'
+liagent::version: '4.7.0-9602262'
+liagent::loginsight_repo: 'http://node1.localdomain/repo/'
