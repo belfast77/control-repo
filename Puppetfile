@@ -31,5 +31,5 @@ mod 'hieratest',
 
 mod 'liagent',
   :git    => 'https://github.com/belfast77/liagent',
-  :branch => 'dev'
+  :branch => 'master'
 
